@@ -28,6 +28,7 @@ function solveSudoku(grid) {
   }
   return true;
 }
+
 function isValidMove(grid, row, col, num) {
   const n = grid.length;
   for (let i = 0; i < n; i++) {
