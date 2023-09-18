@@ -55,7 +55,6 @@ const Board = ()=> {
   const createBoard = () => {
     const board = [];
     let countRow = 0;
-    let countRowGap =0;
     let row = [];
     for (let i = 0; i < 81; i++) {
       row.push(<Square value={squares[i]} backgroundColor={squareColors[i]} isChangeble={isChangeble[i]} onSquareClick={() => handleClick(i)} />);
